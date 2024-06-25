@@ -1,0 +1,699 @@
+@media screen and (max-width:425px) and (min-width:319px) {
+
+    .menus,
+    .icons,
+    .trans-1,
+    .trans-2,
+    .trans-3,
+    .product-mobile-2,
+    .product-mobile-4 {
+        display: none;
+    }
+
+    .bg-img1 {
+        width: 100%;
+        height: 400px;
+    }
+
+    .navbar {
+        flex-wrap: wrap;
+        padding: 0;
+    }
+
+    .navbar-mobile {
+        padding: 30px 10px;
+        background-color: black;
+        z-index: 3;
+    }
+
+    .fa {
+        font-size: 25px;
+    }
+
+    .head-icons {
+        padding: 0;
+    }
+
+    .logo-mobile {
+        width: 80px;
+        height: 30px;
+    }
+
+    li {
+        padding: 0 10px 10px 10px;
+    }
+
+    .heading:first-child {
+        font-family: "Norican", cursive;
+        font-weight: 40;
+        font-size: 25px;
+        letter-spacing: 5px;
+    }
+
+    .heading-1 {
+        font-family: sans-serif;
+        font-size: 30px;
+        margin-right: 10px;
+    }
+
+    .heading-2 {
+        font-size: 60px;
+        font-family: sans-serif;
+        margin: 0 10px 10px 0;
+    }
+
+    .heading-3 {
+        text-transform: uppercase;
+        font-size: 10px;
+        font-family: sans-serif;
+        padding: 0 3px;
+    }
+
+    .heading-4 {
+        color: chocolate;
+        padding: 0 4px;
+        font-size: 20px;
+        font-family: sans-serif;
+    }
+
+    .btn-1 {
+        padding: 10px 30px;
+        text-transform: uppercase;
+        color: black;
+        background-color: white;
+        border: none;
+        font-family: sans-serif;
+        font-size: 10px;
+        cursor: pointer;
+        font-weight: bold;
+        letter-spacing: 2px;
+        margin-left: 20px;
+    }
+
+    .sup {
+        font-size: 10px;
+    }
+
+    .banner {
+        z-index: 1;
+    }
+
+
+    .transition:first-child {
+        width: 400px;
+        height: 200px;
+        position: absolute;
+        transition: none;
+        top: 20%;
+    }
+
+    .transition:first-child:hover {
+        height: 200px;
+        width: 400px;
+    }
+
+    /* second section */
+
+    .list-category {
+        display: flex;
+        flex-direction: column;
+        padding: 0 10px;
+    }
+
+    .list-items-flex {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .list-items {
+        padding: 10px;
+    }
+
+    .rating {
+        color: rgb(197, 196, 196);
+        font-size: 10px;
+    }
+
+    .price {
+        font-size: 16px;
+        font-weight: bold;
+        font-family: sans-serif;
+    }
+
+    .product-name {
+        font-size: 15px;
+        font-weight: 200;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        color: grey;
+    }
+
+    .product-line-1 {
+        width: 90%;
+        margin: 0 10px;
+
+    }
+
+    .h {
+        width: 160px;
+    }
+
+    .product-line-2 {
+        padding: 5%;
+    }
+
+    .section-2 {
+        flex-direction: column;
+    }
+
+    .products {
+        padding: 0 10px;
+    }
+
+    .products-mobile {
+        width: 50%;
+        padding: 10px;
+    }
+
+    /* third section */
+
+
+    .banner-3-img {
+        width: 100%;
+        height: 220px;
+    }
+
+    .sec-3-title {
+        text-transform: uppercase;
+        font-size: 25px;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        color: white;
+    }
+
+    .btn-3 {
+        padding: 10px 20px;
+        font-size: 10px;
+        letter-spacing: 3px;
+        text-transform: uppercase;
+        font-weight: bolder;
+    }
+
+    .section-3-sub {
+        position: absolute;
+        top: 20%;
+        right: 10%;
+    }
+
+    .img-shoes {
+        width: 150px;
+    }
+
+    .section-3 {
+        position: relative;
+    }
+
+    #item {
+        padding: 5px 0;
+    }
+
+    /* fourth-section */
+
+    .fourth-section,
+    .fourth-sec-title {
+        padding: 10px 0;
+    }
+
+    .fourth-sec-title {
+        font-size: 16px;
+    }
+
+    .cards {
+        flex-wrap: wrap;
+    }
+
+    .card1-img,
+    .card2-img {
+        padding: 10px 0;
+        width: 100%;
+        height: 150px;
+    }
+
+    .card1-flex {
+        top: 15%;
+        left: 2%;
+        padding: 0 10px;
+    }
+
+    .card2-flex {
+        top: 60%;
+        left: 2%;
+        padding: 0 10px;
+    }
+
+    .card-btn-1 {
+        top: 20%;
+        left: 75%;
+    }
+
+    .card-btn-2 {
+        top: 63%;
+    }
+
+    .card-btn {
+        padding: 0;
+    }
+
+    .card-offer-1,
+    .card-offer-2 {
+        width: 100%;
+        font-size: 25px;
+    }
+
+    .btn-4,
+    .btn-5 {
+        padding: 10px;
+        font-size: 10px;
+    }
+
+    .card-title-1,
+    .card-title-2 {
+        font-size: 20px;
+    }
+
+    /* fifth section */
+
+    .fifth-section-title {
+        font-size: 20px;
+    }
+
+    .btn-5 {
+        padding: 10px 30px;
+    }
+
+    .fifth-section-desc {
+        padding: 50px 0;
+    }
+
+    /* sixth section */
+
+    .sixth-section-sub {
+        flex-wrap: wrap;
+        padding: 20px 0;
+    }
+
+    .sixth-section {
+        padding: 0 10px;
+    }
+
+    .sixth-section-icons {
+        margin: 20px 0;
+    }
+
+    /* section seven */
+
+    .seventh-section {
+        flex-wrap: wrap;
+    }
+
+    .last-btn {
+        margin: 30px 0;
+    }
+
+    input[type="email"] {
+        padding-right: 10px;
+    }
+
+    .fa-brands {
+        font-size: 20px;
+    }
+
+    .last-icons {
+        margin: 0;
+    }
+
+    /* eighth section */
+
+    .eighth-section {
+        flex-wrap: wrap;
+    }
+
+    .about-1 {
+        flex-wrap: wrap;
+    }
+
+    .aboutus-desc-1 {
+        flex-direction: column;
+        margin-right: 60px;
+    }
+
+    .account-desc-1 {
+        flex-direction: column;
+    }
+}
+
+@media screen and (max-width:768px) and (min-width:426px) {
+
+    .menus,
+    .bars,
+    .trans-1,
+    .trans-2,
+    .trans-3,
+    .product-mobile-2 {
+        display: none;
+    }
+
+    .bg-img1 {
+        width: 100%;
+        height: 500px;
+    }
+
+    .navbar-mobile {
+        padding: 30px 20px;
+        background-color: black;
+        z-index: 3;
+    }
+
+    .fa {
+        font-size: 25px;
+    }
+
+    .head-icons {
+        padding: 0;
+    }
+
+    .links,
+    .usd {
+        margin-top: 5px;
+    }
+
+    .logo-mobile {
+        width: 111px;
+    }
+
+    li {
+        padding: 0 10px 10px 10px;
+    }
+
+
+    .sup {
+        font-size: 10px;
+    }
+
+    .banner {
+        z-index: 1;
+    }
+
+    .icons {
+        padding-top: 0;
+    }
+
+
+    .transition:first-child {
+        width: 700px;
+        height: 400px;
+        position: absolute;
+        transition: none;
+        top: 20%;
+    }
+
+    .transition:first-child:hover {
+        height: 200px;
+        width: 400px;
+    }
+
+    /* second section */
+
+    .list-category {
+        display: flex;
+        flex-direction: column;
+        padding: 0 10px;
+    }
+
+    .products {
+        padding: 0;
+    }
+
+    .product-line-1 {
+        margin: 0;
+        padding: 10px;
+    }
+
+    .products-mobile {
+        width: 190px;
+    }
+
+    .products-details-1 {
+        flex-wrap: wrap;
+    }
+
+    .list-items {
+        width: 150px;
+    }
+
+    .price {
+        font-size: 18px;
+    }
+
+    /* third section */
+
+
+    .banner-3-img {
+        width: 100%;
+        height: 300px;
+    }
+
+    .sec-3-title {
+        text-transform: uppercase;
+        font-size: 40px;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        color: white;
+    }
+
+    .btn-3 {
+        padding: 10px 20px;
+        font-size: 15px;
+        letter-spacing: 3px;
+        text-transform: uppercase;
+        font-weight: bolder;
+    }
+
+    .section-3-sub {
+        position: absolute;
+        top: 20%;
+        right: 10%;
+    }
+
+    .img-shoes {
+        width: 350px;
+    }
+
+    .section-3 {
+        position: relative;
+    }
+
+    #item {
+        padding: 5px 0;
+    }
+
+    .product-line-3 {
+        width: 247px;
+    }
+
+    /* fourth-section */
+
+    .fourth-section,
+    .fourth-sec-title {
+        padding: 10px 0;
+    }
+
+    .fourth-sec-title {
+        font-size: 16px;
+    }
+
+    .product-line-2 {
+        flex-wrap: wrap;
+        padding: 5px 12.5px;
+    }
+
+    .cards {
+        flex-wrap: wrap;
+    }
+
+    .card1-img,
+    .card2-img {
+        padding: 10px 10px;
+        width: 100%;
+        height: 150px;
+    }
+
+    .card1-flex {
+        top: 15%;
+        left: 2%;
+        padding: 0 10px;
+    }
+
+    .card2-flex {
+        top: 60%;
+        left: 2%;
+        padding: 0 10px;
+    }
+
+    .card-btn-1 {
+        top: 20%;
+        left: 75%;
+    }
+
+    .card-btn-2 {
+        top: 63%;
+    }
+
+    .card-btn {
+        padding: 0;
+    }
+
+    .card-offer-1,
+    .card-offer-2 {
+        width: 100%;
+        font-size: 25px;
+    }
+
+    .btn-4,
+    .btn-5 {
+        padding: 10px;
+        font-size: 10px;
+    }
+
+    .card-title-1,
+    .card-title-2 {
+        font-size: 20px;
+    }
+
+    /* fifth section */
+
+    .fifth-section-title {
+        font-size: 20px;
+    }
+
+    .btn-5 {
+        padding: 10px 30px;
+    }
+
+    .fifth-section-desc {
+        padding: 50px 0;
+    }
+
+    /* sixth section */
+
+    .sixth-section-sub {
+        flex-wrap: wrap;
+        padding: 20px 0;
+    }
+
+    .sixth-section {
+        padding: 0 10px;
+    }
+
+    .sixth-section-icons {
+        margin: 20px 0;
+    }
+
+    /* section seven */
+
+    .seventh-section {
+        flex-wrap: wrap;
+        padding: 40px 0;
+    }
+
+    .desc-seventh-section-sub {
+        font-size: 13px;
+    }
+
+    .last-btn {
+        margin: 0 0 0 30px;
+    }
+
+    .fa-brands {
+        font-size: 20px;
+    }
+
+    .last-icons {
+        margin: 30px 0 20px 10px;
+    }
+
+    .subscribe {
+        margin-left: 10px;
+    }
+
+    /* eighth section */
+
+    .eighth-section {
+        flex-direction: column;
+    }
+
+    .about-1 {
+        flex-wrap: wrap;
+    }
+
+    .support,
+    .payment,
+    .return,
+    .shipping {
+        width: 360px;
+    }
+
+    .aboutus-desc-desc {
+        margin-left: 40px;
+    }
+}
+
+@media screen and (min-width:769px) {
+
+    .bar,
+    .bars {
+        display: none;
+    }
+
+    .features-1 {
+        text-align: right;
+    }
+
+    .features-desc {
+        padding: 2px 0 2px 0;
+    }
+}
+
+@media screen and (max-width:374px) {
+    .h {
+        width: 130px;
+    }
+
+    input[type="email"] {
+        padding: 15px 0 15px 0;
+    }
+
+    .btn-7 {
+        padding: 15px 2px;
+    }
+}
+
+@media screen and (min-width:1023px) {
+    .product-1024{
+        display: none;
+    }
+
+    .img-shoes{
+        width:400px;
+    }
+
+    .card2-flex{
+        right:24%;
+        top:7%;
+    }
+
+    .card1-flex{
+        top:8%;
+    }
+
+    .card-btn-1{
+        left:29%;
+    }
+}

@@ -1,0 +1,646 @@
+/* first section */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.logo {
+    width: 111px;
+    height: 44px;
+}
+
+.menus {
+    display: flex;
+    font-weight: bolder;
+    text-transform: uppercase;
+    font-size: 13px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding: 10px 0;
+    list-style-type: none;
+}
+
+.icons {
+    display: flex;
+    font-weight: bolder;
+    text-transform: uppercase;
+    font-size: 13px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding: 10px;
+    list-style-type: none;
+}
+
+.navbar {
+    display: flex;
+    color: white;
+    position: fixed;
+    background-color: transparent;
+    padding: 10px 60px;
+    justify-content: space-between;
+    width: 100%;
+    z-index: 1;
+}
+
+li {
+    padding: 10px 10px;
+    list-style-type: none;
+}
+
+.head-icons {
+    padding-top: 10px;
+    display: flex;
+    color: white;
+}
+
+.icon {
+    font-size: 16px;
+}
+
+.navbar-1 {
+    display: flex;
+}
+
+.banner-1 {
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+
+.bg-img1 {
+    width: 100%;;
+}
+
+.banner {
+    position: absolute;
+    top: 30%;
+    left: 10%;
+    color: white;
+}
+
+.heading:first-child {
+    font-family: "Norican", cursive;
+    font-weight: 400;
+    font-size: 45px;
+    letter-spacing: 8px;
+}
+
+.heading-1 {
+    font-family: sans-serif;
+    font-size: 46px;
+    margin-right: 10px;
+}
+
+.heading-2 {
+    font-size: 100px;
+    font-family: sans-serif;
+}
+
+.heading-3 {
+    text-transform: uppercase;
+    padding: 10px 0;
+    font-size: 20px;
+    font-family: sans-serif;
+}
+
+.heading-4 {
+    color: chocolate;
+    padding: 10px 10px;
+    font-size: 35px;
+    font-family: sans-serif;
+    padding-bottom: 20px;
+}
+
+.sup{
+    font-size: 16px;
+}
+
+.btn-1 {
+    padding: 20px 70px;
+    text-transform: uppercase;
+    color: black;
+    background-color: white;
+    border: none;
+    font-family: 'poppins';
+    font-size: 16px;
+    margin-left: 10px;
+    cursor: pointer;
+    font-weight: bolder;
+}
+
+.head-1,
+.head-2 {
+    display: flex;
+}
+
+
+.transition:first-child {
+    position: absolute;
+    top: 0;
+    right: 1%;
+    height: 100%;
+    transition: height 1s;
+}
+
+.transition:first-child:hover {
+    height: 101%;
+    width: auto;
+}
+
+.transition:nth-child(2) {
+    position: absolute;
+    top: 40%;
+    right: 10%;
+    width: 100px;
+    height: 100px;
+    transition: width 2s, height 2s;
+}
+
+.transition:nth-child(2):hover {
+    width: 300px;
+    height: 300px;
+}
+
+
+.transition:nth-child(3) {
+    position: absolute;
+    top: 30%;
+    right: 50%;
+}
+
+.transition:nth-child(4) {
+    position: absolute;
+    top: 23%;
+    right: 30%;
+    transition: transform 8s;                   /* transform for the blurfake */
+}
+
+.transition:nth-child(4):hover {
+    cursor: pointer;
+    transform: rotate(360deg);                 /* transform takes place here */
+}
+
+/* second section */
+
+.section-2,
+.second-section {
+    background-color: rgb(247, 247, 247);
+}
+
+.list {
+    text-transform: uppercase;
+    color: black;
+    font-size: 1.25rem;
+    font-weight: bold;
+    width:150px;
+}
+
+.list-items {
+    text-transform: uppercase;
+    font-size: 12px;
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+input[type="checkbox"]{
+    margin: 0 10px 0 0;
+}
+
+.list-category {
+    display: flex;
+    flex-direction: column;
+    padding: 25px 25px 0 40px;
+}
+
+.product-line-1 {
+    width: 200px;
+    margin: 0 10px;
+}
+
+.rating {
+    color: rgb(197, 196, 196);
+    font-size: 10px;
+}
+
+.price {
+    font-size: x-large;
+    font-weight: bolder;
+    font-family: sans-serif;
+}
+
+.product-name {
+    font-size: 16px;
+    font-weight: 400;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: grey;
+}
+
+.product-desc-1 {
+    display: flex;
+    flex-direction: column;
+}
+
+.section-2 {
+    display: flex;
+}
+
+.products-details-1{
+    display:flex;
+    flex-wrap: wrap;
+}
+
+.products {
+    display: flex;
+    flex-direction: column;
+    padding: 35px 0 0 25px;
+}
+
+.second-section {
+    padding-top: 40px;
+}
+
+.btn-2 {
+    margin: 12px 40px;
+    padding: 18px 55px;
+    border: 1px solid black;
+    text-transform: uppercase;
+    font-family: 'poppins';
+    font-weight: bold;
+
+}
+
+.btn-2-container {
+    margin: 30px 0;
+    text-align: center;
+}
+
+
+/* third section */
+
+.banner-3-img {
+    width: 100%;
+}
+
+.section-3 {
+    position: relative;
+    display: flex;
+}
+
+.sec-3-title {
+    text-transform: uppercase;
+    font-size: 2.5rem;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: white;
+}
+
+.btn-3 {
+    padding: 16px 40px;
+    font-size: 14px;
+    letter-spacing: 3.2px;
+    text-transform: uppercase;
+    font-weight: bolder;
+}
+
+.section-3-sub {
+    position: absolute;
+    top: 20%;
+    left: 49%;
+}
+
+#item {
+    padding: 10px 0 10px 0;
+}
+
+
+/* fourth section */
+
+.fourth-section {
+    padding: 30px 0;
+    background-color: rgb(247, 247, 247);
+}
+
+.section-4 {
+    width: 100%;
+}
+
+.fourth-sec-title {
+    padding: 60px 0 0 20px;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 24px;
+    letter-spacing: 1.2px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: black;
+}
+
+.product-line-2 {
+    display: flex;
+    padding: 20px;
+}
+
+.card1-img,
+.card2-img {
+    width: 100%;
+    display: flex;
+    padding: 0 20px;
+}
+
+.cards {
+    position: relative;
+    display: flex;
+    padding-bottom: 30px;
+}
+
+.card-title-1 {
+    font-family: 'poppins', sans-serif;
+    font-size: 30px;
+}
+
+.card-title-2 {
+    font-family: 'poppins', sans-serif;
+    font-size: 30px;
+    color: white;
+}
+
+.card-offer-1, .card-offer-2 {
+    text-transform: uppercase;
+    font-weight: 900;
+    font-size: xx-large;
+    font-family: sans-serif;
+}
+
+.card-offer-2 {
+    color: white;
+}
+
+.btn-4 {
+    text-align: center;
+    padding: 15px 40px;
+    border: 1px;
+    background-color: rgb(17, 16, 16);
+    color: white;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+
+.card1-flex {
+    position: absolute;
+    top: 15%;
+    left: 2%;
+    padding: 0 20px;
+}
+
+.card2-flex {
+    position: absolute;
+    top: 15%;
+    right: 30%;
+    padding: 0 20px;
+    padding: 0 20px;
+}
+
+.btn-5 {
+    text-align: center;
+    padding: 15px 40px;
+    border: 1px;
+    background-color: white;
+    color: rgb(17, 16, 16);
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-weight: bolder;
+}
+
+.card-btn {
+    padding: 0 20px;
+}
+
+.card-btn-1 {
+    position: absolute;
+    top: 26%;
+    left: 32%;
+}
+
+.card-btn-2 {
+    position: absolute;
+    top: 26%;
+    right: 6%;
+}
+
+/* fifth section */
+
+.fifth-section-title {
+    font-family: 'poppins', sans-serif;
+    font-size: 38px;
+    color: white;
+    text-transform: uppercase;
+    font-weight: bolder;
+    padding-bottom: 20px;
+
+}
+
+.btn-6 {
+    text-align: center;
+    padding: 15px 40px;
+    border: 1px;
+    background-color: white;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-weight: bolder;
+    font-family: 'poppins', sans-serif;
+}
+
+.fifth-section {
+    background-image: url(../images/fifth/shop18_home_banner3.jpg);
+}
+
+.fifth-section-desc{
+    text-align: center;
+    padding:200px 0;
+}
+
+/* sixth section */
+
+.sixth-section{
+    padding:0 30px;
+    background-color: black;
+    color: white;
+}
+
+.sixth-section-sub{
+    display: flex;
+    padding: 72px 0 40px;
+    text-align: center;
+}
+
+.sixth-section-icons {
+    font-size: 40px;
+    margin-bottom: 40px;
+}
+
+.desc {
+    text-transform: uppercase;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+    margin-bottom: 4px;
+}
+
+.desc-sub {
+    text-transform: uppercase;
+    color: grey;
+    margin-bottom: 20px;
+}
+
+.default {
+    color: grey;
+}
+
+.support, .payment, .return, .shipping{
+    padding:0 20px;
+}
+
+hr{
+    border-color: grey;
+    border-width: 1px;
+}
+
+/* seventh section */
+
+.desc-seventh-section {
+    text-transform: uppercase;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 16px;
+    margin-bottom: 4px;
+}
+
+.desc-seventh-section-sub {
+    color: grey;
+}
+
+input[type="email"]{
+    padding: 15px 40px 15px 10px;
+    border: 1px;
+    background-color: white;
+    letter-spacing: 1px;
+    font-family: 'poppins', sans-serif;
+}
+
+.btn-7 {
+    text-align: center;
+    padding: 15px 40px;
+    border: 1px;
+    background-color: rgb(17, 16, 16);
+    color: white;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.fa-brands{
+    background-color: white;
+    display: inline;
+    color: black;
+    padding: 10px 10px;
+    border-radius: 30px;
+    font-size: 36px;
+    
+}
+
+.seventh-section{
+    display: flex;
+    padding: 40px 20px;
+}
+
+.last-btn{
+    margin: 0 20px;
+}
+
+.last-icons{
+    margin-left: 200px;
+}
+
+/* Eighth Section */
+
+.desc-eighth-section-sub {
+    color: grey;
+}
+
+.desc-eighth-section {
+    text-transform: uppercase;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 16px;
+    margin: 20px 0 4px 0;
+}
+
+.contact-number{
+    text-transform: uppercase;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 25px;
+    margin-bottom: 4px;
+}
+
+.aboutus{
+    text-transform: uppercase;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding-bottom: 20px;
+    padding-top: 10px;
+}
+
+.aboutus-desc{
+    text-transform: capitalize;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: grey;
+    font-size: 16px;
+    padding: 2px 20px 2px 0;
+}
+
+.aboutus-desc-1{
+    display: flex;
+}
+
+.account{
+    text-transform: uppercase;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding-bottom: 20px; 
+    padding-top:10px;
+}
+
+.account-desc{
+    text-transform: capitalize;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: grey;
+    font-size: 16px;
+    padding: 2px 20px 2px 0;
+}
+
+.account-desc-1{
+    display: flex;
+}
+
+.features{
+    text-transform: uppercase;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding-bottom: 20px; 
+    padding-top:10px;
+}
+
+.features-desc{
+    text-transform: capitalize;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: grey;
+    font-size: 16px;
+    padding: 2px 20px 2px 0;
+}
+
+.eighth-section{
+    display: flex;
+    padding: 30px 10px;
+}
+
+/* footer */
+
+.footer{
+    background-color: black;
+    color: gray;
+    text-align: center;
+    padding:40px 0;
+}
+
